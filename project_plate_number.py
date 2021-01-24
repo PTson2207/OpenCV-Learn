@@ -6,7 +6,7 @@ frameHeight = 480
 numberCascade = cv2.CascadeClassifier("Resource/haarcascade_russian_plate_number.xml")
 color = (255, 0, 255)
 
-#cap = cv2.VideoCapture("videos/car_plate.mp4")
+cap = cv2.VideoCapture("videos/car_plate.mp4")
 #bạn phải có video về biển số xe để máy có thể detection
 cap.set(10, frameWidth)
 cap.set(14, frameHeight)
